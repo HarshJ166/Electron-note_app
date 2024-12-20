@@ -1,0 +1,16 @@
+{
+  "name": "electron-app",
+  "version": "1.0.1",
+  "description": "Demo App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"electron .",
+    "dev:watch":"npx electronmon --trace-warnings ."
+  },
+  "author": "Harsh D Jajal",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^33.2.1"
+  }
+}
